@@ -3,32 +3,88 @@
 <head>
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <title>Manoj Portfolio</title>
 
 <body>
     <nav>
-        <div class="nav-container">
-            <div class="nav-content">
-                <i class="zmdi zmdi-home zmdi-hc-3x"></i>
-            </div>
-            <div class="nav-content push-right">
-                <ul>
-                    <li><a href="#" class="current">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-        </div>
+        <ul>
+            <li><a href="#"><i class="zmdi zmdi-home zmdi-hc-2x"></i></a></li>
+            <li><a href="#" class="current-active">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Me</a></li>
+            <li class="push-right"><a href="#">Manoj</a></li>
+        </ul>
     </nav>
     <div class="main">
-        
-    </div>
-    <footer>
-        <div>
-            Manoj © 2017. All Rights Reversed
+        <div class="intro">
+            <div class="summary">
+                <p>Full stack developer with extensive knowledge in wide variety of technologies include Java,JavaScript,Angular,Database,HTML and CSS.</p>
+                <p>
+                    Having <strong>4 years</strong> of experience in creating highly scalable enterprise level applicaitons.
+                </p>
+            </div>
+            <img class="profile-img" src="images/pic.jpeg" />
         </div>
-    </footer>
+        <div class="portfolio">
+            <div>
+                <h2>Portfolio</h2>
+            </div>
+            <div class="center">
+                <div class="seperator">
+                </div>
+                <i class="zmdi zmdi-polymer zmdi-hc-3x"></i>
+                <div class="seperator">
+                </div>
+            </div>
+            <div class="projects">
+                <div>
+                    <a href="https://codepen.io/init0/full/YNqgab" target="_blank"><img src="images/1.png"/></a>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+                <div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="contactus">
+            <div>
+                <h2>Contact Me</h2>
+            </div>
+            <div class="center">
+                <div class="seperator">
+                </div>
+                <i class="zmdi zmdi-polymer zmdi-hc-3x"></i>
+                <div class="seperator">
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="app-form">
+                
+                <input type="text" name="name" placeholder="Name" />
+                <input type="text" name="name" placeholder="Email" />
+                <input type="text" name="name" placeholder="Mobile" />
+                <textarea placeholder="Message" ></textarea>
+
+                <button class=".push-right">Submit</button>
+
+                    
+                </div>
+                <div class="contact-des">
+                    Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.<br/><br>
+                    I promise to reply A.S.A.P.
+
+                </div>
+            </div>
+
+        </div>
+    </div>
 </body>
 
 </html>
