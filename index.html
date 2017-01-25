@@ -4,21 +4,25 @@
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="js/app.js">
+    </script>
+
 </head>
 <title>Manoj Portfolio</title>
 
 <body>
     <nav>
         <ul>
-            <li><a href="#"><i class="zmdi zmdi-home zmdi-hc-2x"></i></a></li>
-            <li><a href="#" class="current-active">Portfolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li><a href=""><i class="zmdi zmdi-home zmdi-hc-2x"></i></a></li>
+            <li><a href="" class="current-active">About</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Contact Me</a></li>
             <li class="push-right"><a href="#">Manoj</a></li>
         </ul>
     </nav>
     <div class="main">
-        <div class="intro">
+        <div class="intro" id="about">
             <div class="summary">
                 <p>Full stack developer with extensive knowledge in wide variety of technologies include Java,JavaScript,Angular,Database,HTML and CSS.</p>
                 <p>
@@ -27,7 +31,7 @@
             </div>
             <img class="profile-img" src="images/pic.jpeg" />
         </div>
-        <div class="portfolio">
+        <div class="portfolio" id="portfolio">
             <div>
                 <h2>Portfolio</h2>
             </div>
@@ -40,7 +44,7 @@
             </div>
             <div class="projects">
                 <div>
-                    <a href="https://codepen.io/init0/full/YNqgab" target="_blank"><img src="images/1.png"/></a>
+                    <a href="https://codepen.io/init0/full/YNqgab" target="_blank"><img src="images/1.png" /></a>
                     <div class="box"></div>
                     <div class="box"></div>
                 </div>
@@ -53,7 +57,7 @@
             </div>
         </div>
 
-        <div class="contactus">
+        <div class="contactus" id="contact">
             <div>
                 <h2>Contact Me</h2>
             </div>
@@ -66,25 +70,37 @@
             </div>
             <div class="wrapper">
                 <div class="app-form">
-                
-                <input type="text" name="name" placeholder="Name" />
-                <input type="text" name="name" placeholder="Email" />
-                <input type="text" name="name" placeholder="Mobile" />
-                <textarea placeholder="Message" ></textarea>
 
-                <button class=".push-right">Submit</button>
+                    <input type="text" name="name" placeholder="Name" />
+                    <input type="text" name="name" placeholder="Email" />
+                    <input type="text" name="name" placeholder="Mobile" />
+                    <textarea placeholder="Message"></textarea>
 
-                    
+                    <button class=".push-right">Submit</button>
+
+
                 </div>
                 <div class="contact-des">
-                    Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.<br/><br>
-                    I promise to reply A.S.A.P.
+                    Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to gowipe in coc, random questions about the universe and the meaning of life, or even if only for some nice Coffee in Thiruvanmayur...
+                    just feel free to drop me a line anytime.<br/><br> I promise to reply A.S.A.P.
 
                 </div>
             </div>
 
         </div>
     </div>
+    <footer>
+        <div class="copyright">
+            <p>manoj © 2017. All Rights Reversed.</p>
+
+        </div>
+        <div class="socio">
+            <a href="https://github.com/manojdev"><i class="zmdi zmdi-github-alt zmdi-hc-3x"></i></a>
+            <a href="https://plus.google.com/u/1/118410725929952904976"><i class="zmdi zmdi-google-plus zmdi-hc-3x"></i></a>
+            <a href="https://www.linkedin.com/in/manojcse"><i class="zmdi zmdi-linkedin zmdi-hc-3x"></i></a>
+            <a href="https://web.facebook.com/manojtvr"><i class="zmdi zmdi-facebook zmdi-hc-3x"></i></a>
+        </div>
+    </footer>
 </body>
 
 </html>
